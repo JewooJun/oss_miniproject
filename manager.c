@@ -62,7 +62,7 @@ int createProduct(Product *p){
     return 1;
 }
 
-// 제품이름 검색
+// 제품이름 검색하기
 void searchProduct(Product *p, int count){
     char sname[20];
     int scnt = 0;
