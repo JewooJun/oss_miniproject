@@ -102,7 +102,7 @@ void searchPrice(Product *p, int count){
     printf("\n");
 }
 
-// 제품 중량 검색
+// 제품 중량 검색하기
 void searchWeight(Product *p, int count){
     char wname[20];
     int scnt = 0;
