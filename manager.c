@@ -162,7 +162,7 @@ int loadData(Product *p){
     return i;
 }
 
-// 파일 저장
+// 파일 저장하기
 void saveData(Product *p, int count){
     FILE *fp;
     fp = fopen("product.txt","wt");
