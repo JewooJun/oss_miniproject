@@ -82,7 +82,7 @@ void searchProduct(Product *p, int count){
     printf("\n");
 }
 
-// 제품 가격 검색
+// 제품 가격 검색하기
 void searchPrice(Product *p, int count){
     int searchp;
     int scnt = 0;
