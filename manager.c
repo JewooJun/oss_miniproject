@@ -3,6 +3,7 @@
 #include <string.h> 
 #include "manager.h"
 
+// 메뉴판 출력하기
 int selectMenu(){
     int menu;
     printf("\n*** 제품 검색창 ***\n");
