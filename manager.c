@@ -136,7 +136,7 @@ int updateProduct(Product *p){
     return 1;
 }
 
-// 제품 삭제
+// 제품 삭제하기
 int deleteProduct(Product *p){
     p->price = -1;
     return 1;
