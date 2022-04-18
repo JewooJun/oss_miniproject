@@ -20,7 +20,7 @@ int selectMenu(){
     return menu;
 }
 
-// 전체 등록된 제품 리스트 출력
+// 전체 등록된 제품 리스트 출력하기
 void listProduct(Product *p, int count){
     int i = 0;
     printf("No. 제품명 설명 중량 판매가격 배송방법(1:새벽배송 /2:택배배송)\n");
