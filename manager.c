@@ -142,7 +142,7 @@ int deleteProduct(Product *p){
     return 1;
 }
 
-// File에서 데이터 불러오기
+// 파일에서 데이터 불러오기
 int loadData(Product *p){
     FILE *fp;
     fp = fopen("product.txt","rt");
